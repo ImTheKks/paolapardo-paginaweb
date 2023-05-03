@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 153, 255);
+    
+
+}
+
+
+@font-face {
+    font-family: veshion;
+    src: url(../tipografia/Veshion.ttf);
+    
+    
+}
+
+@font-face {
+    font-family: caramella;
+    src: url(../tipografia/Caramella_Regular.ttf);
+    
+    
+}
+
+@font-face {
+    font-family: coco;
+    src: url(../tipografia/Cocogoose-Classic-Medium-trial.ttf);
+    
+    
+}
+
+.miperfil{
+    background-color: rgb(215, 215, 215);
+    color: #8E4BEF;
+    font-family: caramella;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.mi{
+    font-size: 3rem;
+    font-family:veshion;
+    color: #FFEF26;
+    
+}
+
+.sobremi{
+    
+    color: #ffffff;
+    padding: 2rem;
+    font-family: caramella;
+}
+
+
+.boxfoto{
+    height: 100vh;
+    background-color: none;
+    
+}
+
+
+
+
+
+
