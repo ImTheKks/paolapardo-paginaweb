@@ -19,48 +19,78 @@ body {
 }
 
 @font-face {
-    font-family: caramella;
-    src: url(../tipografia/Caramella_Regular.ttf);
+    font-family: brea;
+    src: url(../tipografia/BreadleySans-Regular.ttf);
     
     
 }
 
-@font-face {
-    font-family: coco;
-    src: url(../tipografia/Cocogoose-Classic-Medium-trial.ttf);
-    
-    
+@font-face{
+    font-family: roboto;
+    src: url(../tipografia/Roboto-Regular.ttf);
 }
+
+
+
+
 
 .miperfil{
-    background-color: rgb(215, 215, 215);
+    background-color: #FFEF26;
     color: #8E4BEF;
-    font-family: caramella;
+    font-family: veshion;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
+    height: 8rem;
 }
+
+
 
 .mi{
     font-size: 3rem;
     font-family:veshion;
     color: #FFEF26;
+    text-align: center;
+    padding-bottom: 1rem;
     
 }
 
 .sobremi{
     
     color: #ffffff;
-    padding: 2rem;
-    font-family: caramella;
-}
-
-
-.boxfoto{
-    height: 100vh;
-    background-color: none;
+    padding: 3rem;
+    padding-right: 2rem ;
     
 }
 
+.textomi{
+    font-family: brea;
+    font-size: 29px;
+    text-align: start;
+}
+
+
+
+
+.mar{
+    font-family: roboto;
+    font-size: 24px;
+    color: #8E4BEF;
+}
+
+.estexto{
+    font-family: brea;
+    font-size: 20px;
+}
+
+
+.hobi{
+    font-size: 3rem;
+    font-family: veshion;
+    color: #FFEF26;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
 
 
 

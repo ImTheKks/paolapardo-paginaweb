@@ -38,19 +38,3 @@ body {
     background-color:rgb(221, 221, 221) ;
 }
 
-.contacto{
-    font-size: 45px;
-    font-family: veshion;
-    padding-top: 2rem;
-    color:  #b682ff;
-}
-
-.textcontacto{
-    font-size: 27px;
-    font-family: caramella;
-}
-
-
-.form{
-    background-color: rgb(189, 153, 255);
-}

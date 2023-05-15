@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mi portafolio web</title>
-
+    <link rel="icon"  href="images/flo2.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
   
@@ -14,6 +14,10 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     
 
     <link rel="stylesheet" href="css/styles.css">
@@ -25,101 +29,69 @@
   <body>
 
 
-    <nav class="navbar navbar-expand-lg">
+    
+
+    <nav class="navbar navbar-expand-lg nab " style="background-color:  #ffc146">
       <div class="container-fluid">
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end; margin-inline: 14%; font-size: 22px;" >
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <img src="images/logonav.png" width="5%" height="20%">
+          <ul class="navbar-nav ms-auto  mb-2 mb-lg-2" style="justify-content: end; padding-right: 8rem;">
             <li class="nav-item">
-              <a class="nav-link " href="#">Inicio</a>
+              <a class="nav-link" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="perfil.html">Mi perfil</a>
+              <a class="nav-link" href="#herramientas">Herramientas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#mistrabajos">Mis trabajos</a>
+              <a class="nav-link" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#misservicios">Mis servicios</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link " href="contacto.html">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
+            
           </ul>
         </div>
       </div>
     </nav>
-      
-      
+  
+
+
+
+  <div class="container-fluid">
+
+    <div class="row header">
     
-
-
-        <div id="carouselExampleCaptions" class="carousel slide">
-
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8 fotoheader">
+    <h1>Hola, soy <span class="element"></span></h1>
+    <br>
+    <p class="textoheader">Este es mi portafolio web</p>
+    <br>
+    <a class="link" href="perfil.html">Ver perfil</a>
+      </div>
+    
+    
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 foto">
+        <img src="images/foto2.png" width="92%">
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/slide1.png" class="d-block w-100">
-              <div class="carousel-caption">
-                <h2 class="animated bounceInRight" style="animation-delay: 1s;">Hola, soy Paola Pardo</h2>
-                <p class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s;" >Productora multimedia.</p>
-                
-              </div>
-              </div>
-              
-        
-         
-            <div class="carousel-item">
-              <img src="images/slide.png" class="d-block w-100">
-              
-             
-              
-            
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="images/slider33.png" class="d-block w-100">
-              
-             
-                
-                
-            
-              </div>
-        </div>
-      
-
-
-            
-        
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
   
   </div>
 
-
-    
- 
+  </div>
 
 
-  
+          
 
-      <div class="row tools">
+      <div class="row tools" id="herramientas">
         <p>Herramientas</p>
         <article class=" textotools">
           <p>Herramientas que manejo en la creación de sus productos.</p>
@@ -132,55 +104,68 @@
     <section class="row">
 
       <article class="col-xs-12 col-sm-12 col-md-6 col-lg-12  " >
-        <img src="images/ramainicio.png"  height="100%" width="22%" class="rounded float-start animated bounceInLeft" style="padding-top: 1rem;" style="animation-delay: 2s;">
+        <img src="images/ramainicio.png"    class="rounded float-start animated bounceInLeft" style="padding-top: 1rem;" style="animation-delay: 3s;">
       </article>
 
     </section>
 
-  
+  <div class="container">
 
     <section class="row iconos" class="rounded mx-auto d-block">
 
-      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-        <img src="images/ai.png" width="35%" class="rounded mx-auto d-block"style="padding: 1rem ;"> 
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/ai.png" width="45%" class="rounded mx-auto d-block"style="padding: 1rem ;"> 
       </div>
-      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-        <img src="images/an.png" width="35%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/an.png" width="45%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
       </div>
-      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-        <img src="images/Lg.png" width="35%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/Lg.png" width="45%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-        <img src="images/xd.png" width="27%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
-      </div>
+     
       
+    </section>
+
+    <section class="row iconos" class="rounded mx-auto d-block">
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/xd.png" width="37%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/github.png" width="37%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+        <img src="images/html5.png" width="31%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+      </div>
+
+
     </section>
 
     
    
     <section class="row iconos" class="rounded mx-auto d-block">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-          <img src="images/visual.png" width="37%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+          <img src="images/visual.png" width="47%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-          <img src="images/ps.png" width="33%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+          <img src="images/ps.png" width="43%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-          <img src="images/Bootstrap.png" width="30%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 icono">
+          <img src="images/Bootstrap.png" width="38%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 icono">
-          <img src="images/html5.png" width="24%" class="rounded mx-auto d-block"style="padding: 1rem;"> 
-        </div>
+        
 
     
     </section>
+
+  </div>
 
 
 
     <section class="row">
     
       <article class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
-        <img src="images/ramainicio2.png" class="rounded float-end animated bounceInRight" style="padding-top: 2rem;padding-bottom: 2rem;" style="animation-delay: 2s;" height="100%" width="22%">
+        <img src="images/ramainicio2.png" class="rounded float-end animated bounceInRight" style="padding-top: 2rem;padding-bottom: 2rem;" style="animation-delay: 2s;" >
 
       </article>
 
@@ -188,7 +173,7 @@
 
 
     <div class="row skill">
-      <p class="Habilidades" style="font-size: 3rem; color: #ffffff; padding: 3rem;">Habilidades blandas</p>
+      <p class="Habilidades" style="font-size: 3rem; color: #ffffff; padding: 3rem;">Habilidades blandas <img src="images/flo4.png" width="5%"></p>
       
       
 
@@ -232,25 +217,27 @@
 
     </div>
 
-    
-    <div class="row work" style="text-align: center;" id="mistrabajos">
+
+ <div class="container-fluid fondowork">
+    <div class="row work" style="text-align: center;" id="trabajos">
       <p2>Mis trabajos</p2>
     </div>
 
-    <div class="row" style="text-align: center;">
-      <p class="descripcion trabajos" style="font-size: 26px; background-color: white; font-family: caramella; font-style: bold;">Trabajos que he realizado a lo largo de mi profesión.</p>
+    <div class="row" style="text-align: center; padding-bottom: 3rem;">
+      <p class="descripcion trabajos" style="font-size: 32px; background-color: white; font-family: brea; padding-bottom: 2rem;" >Trabajos que he realizado durante mis estudios.</p>
     </div>
       
 
 
+<div class="container">
+
+    <div class="row meworks">
+      
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 olass">
 
 
-    <div class="row works" style="padding-top: 5rem;">
-
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 olass">
-
-
-      <div class="card" style="width: 18rem; padding: 1rem;">
+      <div class="card h-100" >
         <img src="images/xbifresh.png" class="card-img-top">
         <div class="card-body" style="font-size: 17px;">
           <h5 class="card-title">Fotografía de producto</h5>
@@ -260,42 +247,68 @@
       </div>
       </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 olass">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 olass">
 
 
-      <div class="card" style="width: 18rem; padding: 1rem;">
-        <img src="images/simpson.jpg" class="card-img-top" alt="...">
-        <div class="card-body" style="background-color: #8fbeff; font-size: 17px;">
-          <h5 class="card-title">Página web de los Simpson</h5>
-          <p class="card-text">Página web sobre los integrantes de la familia Simpson.</p>
+      <div class="card h-100">
+        <img src="images/afichecongre.png" class="card-img-top" alt="...">
+        <div class="card-body" style=" font-size: 17px;">
+          <h5 class="card-title">Afiche publicitario</h5>
+          <p class="card-text">Elaboración de afiche sobre un congreso de producción multimedia. </p>
+          
           
         </div>
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 olass">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 olass">
 
 
-    <div class="card" style="width: 18rem; padding: 1rem;">
-      <img src="images/animacion.png" class="card-img-top" alt="...">
-      <div class="card-body" style="background-color: #98ff8f; font-size: 17px;">
-        <h5 class="card-title">Animación de canción de cumpleaños.</h5>
-        <p class="card-text">Vectorización y animación de una canción de cumpleaños.</p>
+    <div class="card h-100">
+      <img src="images/ilustracion1.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="font-size: 17px;">
+        <h5 class="card-title">Ilustración.</h5>
+        <p class="card-text">Ilustración de rostro humano, utilizando la herramienta malla.</p>
         
       </div>
     </div>
-  </div>
-
-
-
-
-
-
-    <div class="row services" style="text-align: center; padding: 5rem;" id="misservicios" >
-      <p class="texto">Mis servicios</p2>
     </div>
 
-    <div class="row servicios" style="padding-bottom: 7rem;">
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 olass">
+
+
+      <div class="card h-100">
+        <img src="images/lossimpsons.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="font-size: 17px;">
+          <h5 class="card-title">Pagina web de los Simpson.</h5>
+          <p class="card-text">Página web sobre los integrantes de la familia Simpson.</p>
+         
+            <a href="https://oficialpaola.github.io/pagina-simpson-bootstrap/" class="link" role="button" data-bs-toggle="button">Ver página</a>
+          
+         
+        </div>
+      </div>
+    </div>
+
+  
+
+
+    
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+    <div class="row services" style="text-align: center; padding: 5rem;" id="servicios" >
+      <p class="texto">Mis servicios <img src="images/flo1.png" width="5%"></p>
+    </div>
+
+    <div class="row servicios" style="padding-bottom: 1rem;">
     
 
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12" style="text-align: center; justify-content: center; padding-bottom: 2rem;">
@@ -392,21 +405,48 @@
         </button>
 
       </div>
-    </div>
+    
 
 
 
+  <div class="row col-xs-12 col-sm-12 col-md-6 col-lg-12 boxcontacto" style="background-color: #b27bff;">
+
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " id="contacto">
+    <p class="contacto" style="font-size: 3rem;">Contacto</p>
+    <p class="textocontacto">Agradezco que desees contactarme.</p>
+    <img src="images/flo1.png" height="20%"class="rounded mx-auto d-block">
+  </div>
+
+  
+     
+<div class="row col-xs-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 7rem; padding-bottom: 3rem;">
+  <form>
+<div class="col-9" style="padding-bottom: 1rem;">
+<label for="exampleInputEmail1" class="form-label">Ingrese su correo electrónico</label>
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+</div>
+<div class="col-9" style="padding-bottom: 1rem;">
+<label for="exampleInputPassword1" class="form-label">Ingrese su contraseña</label>
+<input type="password" class="form-control" id="exampleInputPassword1">
+
+</div>
+
+<div class="col-9" style="padding-bottom: 1rem;">
+<label for="comments" class="form-label">Agrega un comentario</label>
+<textarea type="comments" class="form-control" id="comments" ></textarea>
+</div>
 
 
-      
-    </div>
+<button type="button" class="btn btn-outline-warning" style="background-color: yellow;">Enviar</button>
 
-    </div>
+</form>
 
-<div>
+</div>
 
+  </div>
 
-      
+  
 
 
 
@@ -415,7 +455,7 @@
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer " style="font-family: sans-serif; padding: 3rem;">
       <p>Social media</p>
-      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-12 copy" style="align-content: center; padding: 1rem;text-align: center;" >
+      <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-12" style="align-content: center; padding: 1rem;text-align: center;" >
         <a href="#"><img src="images/be.png" width="25"></a>
         <a href="#"><img src="images/insta.png" width="25"></a>
         <a href="#"><img src="images/pin.png" width="25"></a>
@@ -424,7 +464,7 @@
       
     </div>
 
-   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer " style="font-family: sans-serif; padding: 3rem;">
+   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer " style="font-family: sans-serif; padding-top: 3rem;">
       <p>Contacto</p>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
       <img src="images/tel.png" width="20"> +57-3227686619</a>
@@ -440,14 +480,14 @@
 
   </div>
 
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer " style="font-family: sans-serif; padding: 3rem;">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 footer " style="font-family: sans-serif; padding-top: 3rem;">
     <p>Inicio</p>
     <a class="btn btn-secondary btn-sm" style="background-color: #8E4BEF;" href="" role="button">Inicio</a>
   </div>
 
 
 
-<div class="col-xs-12 col-sm-12 col-md-6 col-lg-12 copy" style="font-family: sans-serif;text-align: left; padding-top: 17px; text-align: center;"> 
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-12 copy" style="font-family: sans-serif;text-align: left; padding-top: 5px; text-align: center;"> 
   <p>2023 l Diseño y código por Paola Pardo</p>
 </div>
 
@@ -455,6 +495,7 @@
  
 
 </footer>
+
 
 
 
@@ -475,6 +516,17 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 </script>
 
 
+<script>
+  var typed = new Typed('.element', {
+  strings: ["Paola Pardo.", "Productora multimedia."],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop:true
+});
+
+</script>
+
+
 
 
 
@@ -485,6 +537,10 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
   </body>
 
 </html>
+
+
+
+
 
 
 
